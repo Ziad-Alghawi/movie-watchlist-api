@@ -94,5 +94,4 @@ const logout = (req, res) => {
   });
 }
 
-
 export { register, login, logout };
