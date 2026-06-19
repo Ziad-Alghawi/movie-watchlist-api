@@ -26,13 +26,20 @@ This project demonstrates authentication, authorization, request validation, rel
 
 ## Architecture
 
-src/
-├── controllers/
-├── middleware/
-├── routes/
-├── validators/
-├── utils/
-└── config/
+```text
+src
+├── config          # Database and environment configuration
+├── controllers     # Request handling and business logic
+├── middleware      # Authentication and validation middleware
+├── routes          # API route definitions
+├── utils           # Shared helper functions
+└── validators      # Zod validation schemas
+
+prisma
+├── migrations      # Database migration history
+├── schema.prisma   # Database schema
+└── seed.js         # Sample data seeding
+```
 
 ## Features
 
